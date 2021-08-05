@@ -1,0 +1,19 @@
+{
+    "name": "@alessiodf/log-spam-filter",
+    "description": "Remove 'Connection timed out' log spam in ARK Core 3.0",
+    "homepage": "https://github.com/alessiodf/log-spam-filter",
+    "version": "1.0.0",
+    "contributors": [
+        "alessiodf <alessiodf@pm.me>"
+    ],
+    "license": "GPL-3.0-or-later",
+    "main": "dist/service-provider.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "build": "yarn clean && yarn compile",
+        "clean": "del dist"
+    }
+}
